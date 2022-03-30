@@ -3,6 +3,10 @@
 
 url_crawler is a Python library to crawl the details of a URL. 
 
+## Package Installer 
+
+    pip install url-crawler==1.0.0
+
 ## Usage
 
     from url_crawler import url_crawler
