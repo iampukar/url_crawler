@@ -13,14 +13,14 @@ url_crawler is a Python library to crawl the details of a URL.
     '''
       url -> string URL to crawl for information.
     '''
-    package_details = url_crawler(url)
+    url_details = url_crawler(url)
     
-    print(package_details.url)
-    print(package_details.domain)
-    print(package_details.check_https)
-    print(package_details.dot_count)
-    print(package_details.digit_count)
-    print(package_details.url_length)
+    print(url_details.url)
+    print(url_details.domain)
+    print(url_details.check_https)
+    print(url_details.dot_count)
+    print(url_details.digit_count)
+    print(url_details.url_length)
     
 **Utilities**
 
